@@ -43,3 +43,11 @@ function sortearAmigo() {
         asignarElementos('#resultado', amigoSorteado);
     }
 }
+
+function inicio() {
+    asignarElementos('input', '');
+    asignarElementos('#listaAmigos', '');
+    asignarElementos('#resultado', '');
+}
+
+inicio();
