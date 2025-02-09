@@ -11,3 +11,9 @@ function agregarAmigo() {
         amigos.push(nombreAmigo);//Agrega el nombre al array
     }
 }
+
+function asignarElementos(elemento, valor) {
+    let elementoHTML = document.querySelector(elemento);
+    elementoHTML.innerHTML = valor;
+    return;
+}
