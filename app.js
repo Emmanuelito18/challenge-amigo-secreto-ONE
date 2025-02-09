@@ -34,9 +34,7 @@ function limpiarInput() {
 }
 
 function sortearAmigo() {
-    if (amigos.length === 0) {
-        alert("Por favor ingrese al menos un amigo");
-    } else if (amigos.length < 2) {
+    if (amigos.length === 0 || amigos.length < 2) {
         alert("Por favor ingrese al menos dos amigos");
     } else {
         let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
