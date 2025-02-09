@@ -10,7 +10,7 @@ function agregarAmigo() {
     } else {
         amigos.push(nombreAmigo);//Agrega el nombre al array
         mostrarAmigos();//Muestra los amigos en la lista
-        
+        limpiarInput();//Limpia el input
     }
 }
 
@@ -20,10 +20,15 @@ function mostrarAmigos() {
         listaAmigos += `<li>${amigos[i]}</li>`;
     }
     asignarElementos("#listaAmigos", listaAmigos);
+    limpiarInput();
 }
 
 function asignarElementos(elemento, valor) {
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = valor;
     return;
+}
+
+function limpiarInput() {
+    document.querySelector('input').value = "";
 }
