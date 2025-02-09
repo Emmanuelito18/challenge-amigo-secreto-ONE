@@ -32,3 +32,14 @@ function asignarElementos(elemento, valor) {
 function limpiarInput() {
     document.querySelector('input').value = "";
 }
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("Por favor ingrese al menos un amigo");
+    } else if (amigos.length < 2) {
+        alert("Por favor ingrese al menos dos amigos");
+    } else {
+        let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+        asignarElementos('#resultado', amigoSorteado);
+    }
+}
