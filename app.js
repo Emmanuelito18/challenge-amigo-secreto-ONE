@@ -9,7 +9,17 @@ function agregarAmigo() {
         alert("Por favor ingrese un nombre válido");
     } else {
         amigos.push(nombreAmigo);//Agrega el nombre al array
+        mostrarAmigos();//Muestra los amigos en la lista
+        
     }
+}
+
+function mostrarAmigos() {
+    let listaAmigos = "";
+    for (let i = 0; i < amigos.length; i++) {
+        listaAmigos += `<li>${amigos[i]}</li>`;
+    }
+    asignarElementos("#listaAmigos", listaAmigos);
 }
 
 function asignarElementos(elemento, valor) {
