@@ -1,4 +1,4 @@
-gi# Challenge Amigo Secreto ONE
+# Challenge Amigo Secreto ONE
 
 Este proyecto es una implementación del challenge "Amigo Secreto" de ONE (Oracle Next Education G8) utilizando JavaScript, HTML y CSS.
 
