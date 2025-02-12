@@ -2,7 +2,7 @@
 
 Este proyecto es una implementación del challenge "Amigo Secreto" de ONE (Oracle Next Education G8) utilizando JavaScript, HTML y CSS.
 
-Puedes utilizar esta app [haciendo click aqui]()
+Puedes utilizar esta app [haciendo click aqui](https://emmanuelito18.github.io/challenge-amigo-secreto-ONE/)
 
 La prorgamación JavaScript y parte del css y html fueron hechos por Emmanuelito18.
 
